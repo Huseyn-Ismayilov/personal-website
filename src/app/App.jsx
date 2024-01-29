@@ -1,16 +1,37 @@
-import Site from "../components/Site"
-import SiteButton from "../components/SiteButton"
-import SocialMedia from "../components/SocialMedia"
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
 
-const App = () => {
+// Layout
+import Root from '../layout/Layout.jsx'
+
+// Pages
+import Home from '../pages/Home'
+import About from '../pages/About.jsx'
+
+
+const router = createBrowserRouter([
+    {
+        element: <Root />,
+        // errorElement: <ErrorPage />,
+        children: [
+            {
+                path: '/',
+                element: <Home />
+            },
+            {
+                path: '/About',
+                element: <About />
+            }
+        ]
+    }
+]);
+
+
+export default function App() {
     return (
-        <>
-            <h1 className="text-3xl">asdasd</h1>
-            <Site />
-            <SiteButton />
-            <SocialMedia/>
-        </>
+        <RouterProvider router={router} ></RouterProvider>
     )
 }
 
-export default App
