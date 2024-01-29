@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
-/* @layer base { 
-    html { 
-      @apply text-gray-500; 
-    } 
-}  */
-
+@layer base {
+    img,
+    video {
+    max-width: 100%;
+    height: auto;
+    }
+    body {
+        font-size: 14px;
+    }
+}

@@ -1,14 +1,14 @@
-import SocialMedia from '../components/SocialMedia'
-import TopEmail from '../components/TopEmail'
+import SocialMedia from '../../components/SocialMedia'
+import TopEmail from '../../components/TopEmail'
 
 export default function topHeader() {
     return (
-        <div className='sticky py-3'>
+        <div className='sticky py-8'>
             <div className="container mx-auto ">
                 <div className="flex items-center justify-between">
                     <TopEmail
-                        to=".//"
-                        text="contact@johncarter.com"
+                        to="mailto:i.huseynn0@gmail.com"
+                        text="i.huseynn0@gmail.com"
                     />
                     <SocialMedia />
                 </div>
