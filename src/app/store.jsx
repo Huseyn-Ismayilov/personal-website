@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import site from './redux/site'
+import theme0  from '../features/themeTest'
 
 export default configureStore({
   reducer: {
-    site: site
+    theme: theme0
   },
 })
