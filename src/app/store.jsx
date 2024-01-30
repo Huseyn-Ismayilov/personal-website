@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import theme from '../features/themeTest'
+import theme from '../features/darkTheme'
 
 export default configureStore({
   reducer: {

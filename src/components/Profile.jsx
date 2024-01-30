@@ -14,7 +14,10 @@ export default function Profile() {
                     alt=""
                 />
                 <div className="absolute bottom-0 left-0 translate-y-[50%] px-8">
-                    <ProfilePhoto src={photo} />
+                    <ProfilePhoto
+                        src={photo}
+                        active={true}
+                    />
                 </div>
             </div>
             <div className="flex items-center justify-between px-8 pt-10 pb-8">

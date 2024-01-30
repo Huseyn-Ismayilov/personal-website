@@ -1,5 +1,6 @@
 import React from 'react';
 import TopHeader from './TopHeader/TopHeader';
+import NavBar from './NavBar/NavBar';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
@@ -9,6 +10,7 @@ const Layout = () => {
             <main>
                 <Outlet />
             </main>
+            <NavBar />
         </>
     );
 };

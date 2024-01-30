@@ -18,7 +18,8 @@ module.exports = {
         'blue-600': '#2D9AFF',
       },
       boxShadow: {
-        lg: '0 20px 30px -15px rgba(0, 0, 0, 0.10)',
+        md: '0 10px 10px -5px rgba(0, 0, 0, 0.05)',
+        lg: '0 20px 30px -15px rgba(0, 0, 0, 0.07)',
       }
     },
     container: {
