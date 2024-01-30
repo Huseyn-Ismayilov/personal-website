@@ -19,7 +19,7 @@ module.exports = {
       },
       boxShadow: {
         md: '0 10px 10px -5px rgba(0, 0, 0, 0.05)',
-        lg: '0 20px 30px -15px rgba(0, 0, 0, 0.07)',
+        lg: '0 25px 30px 0 rgba(0, 0, 0, 0.035)',
       }
     },
     container: {

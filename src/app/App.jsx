@@ -8,8 +8,9 @@ import Root from '../layout/Layout.jsx'
 
 // Pages
 import Home from '../pages/Home'
-import About from '../pages/About.jsx'
-
+import About from '../pages/About'
+import Blogs from '../pages/Blogs'
+import Portfolio from '../pages/Porfolio'
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,14 @@ const router = createBrowserRouter([
             {
                 path: '/About',
                 element: <About />
+            },
+            {
+                path: '/portfolio',
+                element: <Portfolio />
+            },
+            {
+                path: '/blogs',
+                element: <Blogs />
             }
         ]
     }
