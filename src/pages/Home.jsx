@@ -1,9 +1,8 @@
-import SocialMedia from "../components/SocialMedia"
 import Profile from "../components/Profile"
 
 export default function Home() {
     return (
-        <section>
+        <section className="mb-14">
             <div className="container mx-auto">
                 <Profile />
             </div>

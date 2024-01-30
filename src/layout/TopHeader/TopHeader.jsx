@@ -1,4 +1,4 @@
-import SocialMedia from '../../components/SocialMedia'
+import SocialMedia from '../../components/TopSocialMedia'
 import TopEmail from '../../components/TopEmail'
 
 export default function topHeader() {

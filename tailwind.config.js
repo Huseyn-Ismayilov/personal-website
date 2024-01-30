@@ -2,7 +2,7 @@
 module.exports = {
   mode: 'jit',
   content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}", './index.html'
+    "./src/**/*.{html,jsx}", './index.html'
   ],
 
   theme: {
@@ -11,6 +11,7 @@ module.exports = {
         sans: ['Inter', ' system-ui', 'sans-serif']
       },
       colors: {
+        'gray-300': '#EEEEEE',
         'gray-400': '#808080',
         'gray-500': '#3C3C3C',
         'gray-600': '#111111',
@@ -24,7 +25,7 @@ module.exports = {
       screens: {
         sm: '600px',
         md: '728px',
-        lg: '984px',
+        lg: '944px',
         // xl: '1240px',
       },
     },
