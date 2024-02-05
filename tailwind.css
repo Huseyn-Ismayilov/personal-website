@@ -14,3 +14,10 @@
         background-color: #F9F9F9;
     }
 }
+.attbc0:not(:last-child) {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+.attbc0:last-child .line {
+    display: none;
+}

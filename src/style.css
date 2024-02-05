@@ -595,6 +595,10 @@ body {
   position: sticky;
 }
 
+.-right-\[100px\]{
+  right: -100px;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -605,6 +609,10 @@ body {
 
 .bottom-5{
   bottom: 1.25rem;
+}
+
+.left-0{
+  left: 0px;
 }
 
 .left-1\/2{
@@ -640,12 +648,20 @@ body {
   margin-bottom: 3.5rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mb-3{
   margin-bottom: 0.75rem;
 }
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-7{
+  margin-bottom: 1.75rem;
 }
 
 .line-clamp-5{
@@ -679,28 +695,52 @@ body {
   height: 2.5rem;
 }
 
-.h-3{
-  height: 0.75rem;
+.h-11{
+  height: 2.75rem;
 }
 
-.h-\[75px\]{
-  height: 75px;
+.h-3{
+  height: 0.75rem;
 }
 
 .h-\[120px\]{
   height: 120px;
 }
 
-.w-1\/2{
-  width: 50%;
+.h-\[1px\]{
+  height: 1px;
+}
+
+.h-\[60px\]{
+  height: 60px;
+}
+
+.h-\[75px\]{
+  height: 75px;
 }
 
 .w-10{
   width: 2.5rem;
 }
 
+.w-11{
+  width: 2.75rem;
+}
+
 .w-3{
   width: 0.75rem;
+}
+
+.w-\[45\%\]{
+  width: 45%;
+}
+
+.w-\[55\%\]{
+  width: 55%;
+}
+
+.w-\[60px\]{
+  width: 60px;
 }
 
 .w-\[75px\]{
@@ -709,6 +749,22 @@ body {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[50\%\]{
+  width: 50%;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.shrink-0{
+  flex-shrink: 0;
+}
+
+.grow{
+  flex-grow: 1;
 }
 
 .-translate-x-\[50\%\]{
@@ -745,6 +801,10 @@ body {
   gap: 0.5rem;
 }
 
+.gap-4{
+  gap: 1rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
@@ -756,6 +816,12 @@ body {
 
 .gap-y-3{
   row-gap: 0.75rem;
+}
+
+.space-x-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-7 > :not([hidden]) ~ :not([hidden]){
@@ -788,6 +854,19 @@ body {
   border-width: 4px;
 }
 
+.border-b-0{
+  border-bottom-width: 0px;
+}
+
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-gray-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(238 238 238 / var(--tw-border-opacity));
@@ -798,14 +877,28 @@ body {
   border-color: rgb(249 250 251 / var(--tw-border-opacity));
 }
 
+.border-transparent{
+  border-color: transparent;
+}
+
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-b-gray-200{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity));
 }
 
 .bg-gray-500{
@@ -821,6 +914,10 @@ body {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-white\/50{
+  background-color: rgb(255 255 255 / 0.5);
 }
 
 .bg-opacity-95{
@@ -882,6 +979,11 @@ body {
   line-height: 2rem;
 }
 
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -935,6 +1037,12 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.backdrop-blur-sm{
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 @media (min-width: 768px){
   .md\:container{
     width: 100%;
@@ -965,8 +1073,14 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:gap-3:hover{
-  gap: 0.75rem;
+.hover\:border-gray-200:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.hover\:bg-black:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-opacity-100:hover{
@@ -1007,4 +1121,13 @@ body {
   .md\:rounded-xl{
     border-radius: 0.75rem;
   }
+}
+
+.attbc0:not(:last-child) {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.attbc0:last-child .line {
+  display: none;
 }

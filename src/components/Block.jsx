@@ -1,6 +1,6 @@
 export default function Block(props) {
     return (
-        <div className="block relative bg-white px-7 py-9 border border-gray-50 rounded-xl shadow-md">
+        <div className="block relative bg-white px-7 py-9 mb-7 border border-gray-50 rounded-xl overflow-hidden shadow-md">
             {props.children}
         </div>
     )
