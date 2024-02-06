@@ -20,7 +20,7 @@ const LinkItems = [
 export default function NavBar() {
     return (
         <div className="fixed bottom-10 left-1/2 -translate-x-[50%]">
-            <div className="flex items-center gap-5 p-4 border border-gray-300 rounded-xl backdrop-blur-sm bg-white/50">
+            <div className="flex items-center gap-5 p-4 border border-gray-300 rounded-xl backdrop-blur-sm bg-white/60">
                 {LinkItems.map((item, index) => (
                     <NavLink
                         key={index}

@@ -12,7 +12,7 @@ export default function Home() {
                     <Profile />
                 </div>
             </section>
-            <section className="mb-14">
+            <section>
                 <div className="container mx-auto">
                     <BlockTitle title="About me" />
                     <div className="md:flex md:space-x-7">

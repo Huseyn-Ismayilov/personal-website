@@ -5,13 +5,28 @@ export default function ListItem(props) {
                 <img src={props.image} alt="" />
             </div>
             <div className="grow">
-                <div className="flex items-center justify-between">
-                    <h3 className="text-base font-bold">{props.title}</h3>
-                    <span className="text-gray-400">{props.date}</span>
+                <div className="flex justify-between">
+                    <h3 className="text-base font-bold whitespace-pre-wrap">{props.title}</h3>
+                    <span className="block text-gray-400 whitespace-nowrap mt-1">{props.date}</span>
                 </div>
                 <h5 className="text-sm text-gray-400 font-medium">{props.corporate}</h5>
+
+                {props.accomplishments &&
+                    <ul className="list-disc ps-4 mt-2">
+                        {props.accomplishments.map((item, index) => (
+                            <li
+                                key={index}
+                                className="text-gray-400 text-xs pb-1"
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+
+                }
+
             </div>
-            <div className="line absolute left-0 -right-[100px] bottom-0 h-[1px] border-b border-b-gray-200"></div>
-        </div>
+            <div className="line absolute left-0 -right-[100px] bottom-0 h-[1px] border-b border-gray-200"></div>
+        </div >
     )
 }

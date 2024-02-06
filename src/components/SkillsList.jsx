@@ -14,7 +14,7 @@ const list = [
 ]
 export default function SkillList() {
     return (
-        <ul className="flex flex-wrap gap-x-2 gap-y-3">
+        <ul className="flex flex-wrap gap-x-2 gap-y-3 max-w-[800px]">
             {
                 list.map((item, index) => (
                     <li
