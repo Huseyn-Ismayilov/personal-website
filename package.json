@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./src/style.css --watch",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "watch": "npx tailwindcss -i ./tailwind.css -o ./src/style.css --watch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
