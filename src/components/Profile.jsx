@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import profileBg from '../assets/profile-bg.png'
 import photo from '../assets/photo.png'
-import ProfileSocialMedia from './ProfileSocialMedia'
+import ProfileSocialMedia from './SocialMedia/ProfileSocialMedia'
 import ProfilePhoto from './ProfilePhoto'
 
 export default function Profile() {

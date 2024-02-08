@@ -1,9 +1,9 @@
-import SocialMedia from '../../components/TopSocialMedia'
+import SocialMedia from '../../components/SocialMedia/TopSocialMedia'
 import TopEmail from '../../components/TopEmail'
 
 export default function topHeader() {
     return (
-        <div className='sticky py-8'>
+        <div className='py-8'>
             <div className="container mx-auto ">
                 <div className="flex items-center justify-between">
                     <TopEmail

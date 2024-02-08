@@ -1,6 +1,6 @@
 import Block from "./Block";
 import BlockTitle from "./BlockTitle";
-import SocialMedia from "./ProfileSocialMedia";
+import SocialMedia from "./SocialMedia/ProfileSocialMedia";
 
 export default function Follow() {
     return (

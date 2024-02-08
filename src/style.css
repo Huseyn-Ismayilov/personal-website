@@ -644,6 +644,10 @@ body {
   margin-right: auto;
 }
 
+.mb-12{
+  margin-bottom: 3rem;
+}
+
 .mb-14{
   margin-bottom: 3.5rem;
 }
@@ -668,20 +672,12 @@ body {
   margin-bottom: 2rem;
 }
 
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .mt-1{
   margin-top: 0.25rem;
 }
 
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
-.mb-12{
-  margin-bottom: 3rem;
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .line-clamp-5{
@@ -769,6 +765,10 @@ body {
 
 .max-w-\[800px\]{
   max-width: 800px;
+}
+
+.max-w-\[420px\]{
+  max-width: 420px;
 }
 
 .shrink-0{
@@ -862,6 +862,10 @@ body {
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
 }
 
 .border{
@@ -962,8 +966,17 @@ body {
   padding-bottom: 2.25rem;
 }
 
-.py-1{
-  padding-top: 0.25rem;
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pb-1{
   padding-bottom: 0.25rem;
 }
 
@@ -975,20 +988,12 @@ body {
   padding-right: 1rem;
 }
 
-.pt-11{
-  padding-top: 2.75rem;
-}
-
-.ps-5{
-  padding-inline-start: 1.25rem;
-}
-
 .ps-4{
   padding-inline-start: 1rem;
 }
 
-.pb-1{
-  padding-bottom: 0.25rem;
+.pt-11{
+  padding-top: 2.75rem;
 }
 
 .text-center{
@@ -998,6 +1003,11 @@ body {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base{
@@ -1018,6 +1028,11 @@ body {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
@@ -1049,6 +1064,15 @@ body {
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(60 60 60 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-\[\#000000a8\]{
+  color: #000000a8;
 }
 
 .shadow-lg{
