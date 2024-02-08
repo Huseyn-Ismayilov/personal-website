@@ -19,7 +19,7 @@ export default function Profile() {
                         active={true}
                     />
                 </div>
-                <Link to="/about"
+                <Link to="/portfolio"
                     className='absolute right-8 bottom-5  items-center rounded-lg font-medium bg-white bg-opacity-95 pr-4 hover:bg-opacity-100 hidden sm:flex'
                 >
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">

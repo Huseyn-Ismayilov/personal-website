@@ -24,3 +24,24 @@ body {
 .attbc0:last-child .line {
     display: none;
 }
+.porfolioCart:hover .overlay {
+  opacity: 1;
+  
+}
+.porfolioCart .overlay {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    /* transition-delay: 100ms; */
+}
+.porfolioCart:hover img {
+    transform: scale(1.07);
+}
+
+.porfolioCart .btn {
+    gap: 0px;
+}
+.porfolioCart .btn:hover {
+    gap: 10px;
+
+}

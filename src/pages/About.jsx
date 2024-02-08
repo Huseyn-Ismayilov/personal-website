@@ -10,16 +10,16 @@ export default function About() {
     return (
         <>
             <section className="mb-8">
-                <div className="md:container mx-auto">
-                    <div className="flex space-x-7">
-                        <div className="w-1/2">
+                <div className="container mx-auto">
+                    <div className="lg:flex lg:space-x-7">
+                        <div className="lg:w-1/2">
                             <BlockTitle
                                 title="About me"
                             />
                             <MyStory />
                             <Follow />
                         </div>
-                        <div className="w-1/2">
+                        <div className="lg:w-1/2">
                             <BlockTitle
                                 title="Certificates"
                             />
@@ -29,7 +29,7 @@ export default function About() {
                 </div>
             </section>
             <section className="mb-12">
-                <div className="md:container mx-auto">
+                <div className="container mx-auto">
                     <BlockTitle
                         title="Experience"
                     />
@@ -37,15 +37,15 @@ export default function About() {
                 </div>
             </section>
             <section className="mb-8">
-                <div className="md:container mx-auto">
-                    <div className="flex space-x-7">
-                        <div className="w-1/2">
+                <div className="container mx-auto">
+                    <div className="lg:flex lg:space-x-7">
+                        <div className="lg:w-1/2">
                             <BlockTitle
                                 title="Experience"
                             />
                             <Experience />
                         </div>
-                        <div className="w-1/2">
+                        <div className="lg:w-1/2">
                             <BlockTitle
                                 title="Education"
                             />
