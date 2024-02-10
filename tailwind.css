@@ -45,3 +45,30 @@
     gap: 10px;
 
 }
+input, 
+textarea,
+button {
+    font-weight: 500;
+
+}
+input::placeholder, 
+textarea::placeholder,
+button::placeholder {
+    font-weight: 400;
+
+}
+.modal_inner {
+    /* transform: translateY(0); */
+    animation: slide-up 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95) ease-out forwards;
+}
+
+
+@keyframes slide-up {
+    from {
+      transform: translateY(-10px);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }

@@ -20,9 +20,9 @@ const Modal = () => {
     return (
         <div
             onClick={handleCloseModal}
-            className="modal fixed inset-0 z-20 bg-black/40 flex items-center justify-center"
+            className={`fixed inset-0 z-20 bg-black/40 flex items-center justify-center transition-all`}
         >
-            <div className="modal_inner bg-white max-w-[474px] p-7 rounded-2xl w-full relative">
+            <div className="transition-all modal_inner bg-white max-w-[474px] p-7 rounded-2xl w-full relative">
                 <button
                     onClick={closeModal}
                     className='absolute -right-14 -top-14'
@@ -33,7 +33,7 @@ const Modal = () => {
                     </svg>
 
                 </button>
-                <div>
+                <div className=''>
                     <h1 className='text-2xl font-semibold mb-4'>Let’s work together</h1>
                     <div className="flex items-center gap-4">
                         <a href='' className="inline-flex items-center gap-2 hover:text-black">
@@ -59,7 +59,7 @@ const Modal = () => {
                         <div className='mb-4'>
                             <textarea className='w-full h-14 rounded-xl bg-[#F7F7F7] p-4 min-h-28 max-h-36' type="text" placeholder='Tell me more about the project...' />
                         </div>
-                        <button className='w-full py-3 bg-black text-white rounded-lg' type='submit'>Send Message</button>
+                        <button className='w-full py-3 bg-black/85 text-white rounded-lg hover:bg-black' type='submit'>Send Message</button>
                     </form>
                 </div>
             </div>
