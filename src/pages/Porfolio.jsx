@@ -6,25 +6,25 @@ const porfolioItems = [
     {
         name: 'Blanchard',
         desc: 'Blanchard website for Turkey company',
-        image: './assets/project1.png',
+        image: '/assets/project1.png',
         link: '#'
     },
     {
         name: 'Tachopilot App',
         desc: 'Tachopilot App',
-        image: './assets/project2.png',
+        image: '/assets/project2.png',
         link: '#'
     },
     {
         name: 'Blanchard',
         desc: 'Blanchard website for Turkey company',
-        image: './assets/project1.png',
+        image: '/assets/project1.png',
         link: '#'
     },
     {
         name: 'Tachopilot App',
         desc: 'Tachopilot App',
-        image: './assets/project2.png',
+        image: '/assets/project2.png',
         link: '#'
     },
 ]
