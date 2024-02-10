@@ -14,6 +14,9 @@ const Modal = () => {
     };
     if (!isOpen) return null;
 
+    console.log(isOpen);
+    // console.log(closeModal);
+
     return (
         <div
             onClick={handleCloseModal}
@@ -25,8 +28,8 @@ const Modal = () => {
                     className='absolute -right-14 -top-14'
                 >
                     <svg width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.65002 2L40.9999 39.3499" stroke="white" stroke-width="4" stroke-linecap="round" />
-                        <path d="M2 39.3499L39.3499 2.00003" stroke="white" stroke-width="4" stroke-linecap="round" />
+                        <path d="M3.65002 2L40.9999 39.3499" stroke="white" strokeWidth="4" strokeLinecap="round" />
+                        <path d="M2 39.3499L39.3499 2.00003" stroke="white" strokeWidth="4" strokeLinecap="round" />
                     </svg>
 
                 </button>
