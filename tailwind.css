@@ -10,13 +10,13 @@
     height: auto;
     }
     body {
-        font-size: 14px;
+        /* font-size: 14px; */
         background-color: #F9F9F9;
     }
 }
-body {
+/* body {
     padding-bottom: 150px;
-}
+} */
 .attbc0:not(:last-child) {
     padding-bottom: 24px;
     margin-bottom: 24px;
