@@ -1,32 +1,31 @@
 import { Link } from "react-router-dom"
 import Block from "../components/Block"
 import Cart from "../components/PortfolioCart/Cart"
-import image from "../assets/tachopilot-website.png"
-import image1 from "../assets/albert-mohler-website.png"
+// import image from "../assets/tachopilot-website.png"
 
 const porfolioItems = [
     {
         name: 'Blanchard',
         desc: 'Blanchard website for Turkey company',
-        image: image,
+        image: '/assets/albert-mohler-website.png',
         link: '#'
     },
     {
         name: 'Tachopilot App',
         desc: 'Tachopilot App',
-        image: image,
+        image: '/assets/tachopilot-website.png',
         link: '#'
     },
     {
         name: 'Blanchard',
         desc: 'Blanchard website for Turkey company',
-        image: image1,
+        image: '/assets/albert-mohler-website.png',
         link: '#'
     },
     {
         name: 'Tachopilot App',
         desc: 'Tachopilot App',
-        image: image1,
+        image: '/assets/tachopilot-website.png',
         link: '#'
     },
 ]
