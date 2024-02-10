@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom"
+import { useModal } from "../../context/ModalContext";
+
 const LinkItems = [
     {
         text: "Home",
@@ -17,7 +19,11 @@ const LinkItems = [
     },
 ]
 
+
 export default function NavBar() {
+
+    const { openModal } = useModal();
+
     return (
         <div className="fixed bottom-10 left-1/2 -translate-x-[50%] shadow-md">
             <div className="flex items-center gap-5 p-4 border border-gray-300 rounded-xl backdrop-blur-sm bg-white/60">
@@ -33,11 +39,11 @@ export default function NavBar() {
                         )}
                     </NavLink>
                 ))}
-                <NavLink to="/" className="flex items-center justify-center w-11 h-11 bg-gray-500 hover:bg-black rounded-lg">
+                <button onClick={openModal} className="flex items-center justify-center w-11 h-11 bg-gray-500 hover:bg-black rounded-lg">
                     <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.88911 0.333313C1.10155 0.333313 0.439439 0.852646 0.207883 1.57009C0.140883 1.77787 0.249661 1.99287 0.434217 2.10942L8.69733 7.32576C8.88233 7.44253 9.11811 7.44253 9.30311 7.32576L17.5662 2.10942C17.7508 1.99287 17.8596 1.77787 17.7926 1.57009C17.561 0.852646 16.8989 0.333313 16.1113 0.333313H1.88911ZM0.981551 4.25176C0.603773 4.0132 0.111328 4.28476 0.111328 4.73153V12.9046C0.111328 13.8969 0.906884 14.7005 1.88911 14.7005H16.1113C17.0936 14.7005 17.8891 13.8969 17.8891 12.9046V4.73153C17.8891 4.28476 17.3967 4.0132 17.0189 4.25176L9.47066 9.01642C9.18266 9.19787 8.81777 9.19787 8.52977 9.01642L0.981551 4.25176Z" fill="#D9D9D9" />
                     </svg>
-                </NavLink>
+                </button>
 
 
             </div>
