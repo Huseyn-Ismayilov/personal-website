@@ -3,29 +3,55 @@ import Block from "../components/Block"
 import Cart from "../components/PortfolioCart/Cart"
 // import image from "../assets/tachopilot-website.png"
 
+// const porfolioItems = [
+//     {
+//         name: 'Blanchard',
+//         desc: 'Blanchard website for Turkey company',
+//         image: '/assets/albert-mohler-website.png',
+//         link: '#'
+//     },
+//     {
+//         name: 'Tachopilot App',
+//         desc: 'Tachopilot App',
+//         image: '/assets/tachopilot-website.png',
+//         link: '#'
+//     },
+//     {
+//         name: 'Blanchard',
+//         desc: 'Blanchard website for Turkey company',
+//         image: '/assets/albert-mohler-website.png',
+//         link: '#'
+//     },
+//     {
+//         name: 'Tachopilot App',
+//         desc: 'Tachopilot App',
+//         image: '/assets/tachopilot-website.png',
+//         link: '#'
+//     },
+// ]
 const porfolioItems = [
     {
         name: 'Blanchard',
         desc: 'Blanchard website for Turkey company',
-        image: '/assets/albert-mohler-website.png',
+        image: './src/assets/albert-mohler-website-IuKHxrEX.png',
         link: '#'
     },
     {
         name: 'Tachopilot App',
         desc: 'Tachopilot App',
-        image: '/assets/tachopilot-website.png',
+        image: './src/assets/tachopilot-website-twBuJopT.png',
         link: '#'
     },
     {
         name: 'Blanchard',
         desc: 'Blanchard website for Turkey company',
-        image: '/assets/albert-mohler-website.png',
+        image: './src/assets/albert-mohler-website-IuKHxrEX.png',
         link: '#'
     },
     {
         name: 'Tachopilot App',
         desc: 'Tachopilot App',
-        image: '/assets/tachopilot-website.png',
+        image: './src/assets/tachopilot-website-twBuJopT.png',
         link: '#'
     },
 ]
