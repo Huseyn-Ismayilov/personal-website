@@ -20,9 +20,9 @@ const Modal = () => {
     return (
         <div
             onClick={handleCloseModal}
-            className={`fixed inset-0 z-20 bg-black/40 flex items-center justify-center transition-all`}
+            className={`backdrop-blur-sm fixed inset-0 z-20 bg-black/40 flex items-center justify-center`}
         >
-            <div className="transition-all modal_inner bg-white max-w-[474px] p-7 rounded-2xl w-full relative">
+            <div className="modal_inner bg-white max-w-[474px] p-7 rounded-2xl w-full relative">
                 <button
                     onClick={closeModal}
                     className='absolute -right-14 -top-14'
@@ -31,7 +31,6 @@ const Modal = () => {
                         <path d="M3.65002 2L40.9999 39.3499" stroke="white" strokeWidth="4" strokeLinecap="round" />
                         <path d="M2 39.3499L39.3499 2.00003" stroke="white" strokeWidth="4" strokeLinecap="round" />
                     </svg>
-
                 </button>
                 <div className=''>
                     <h1 className='text-2xl font-semibold mb-4'>Let’s work together</h1>

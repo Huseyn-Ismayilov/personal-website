@@ -1,6 +1,6 @@
 export default function Cart({ image, title, desc, link }) {
     return (
-        <div className="porfolioCart">
+        <div className="portfolioCart">
             <div className="rounded-3xl overflow-hidden mb-3 relative">
                 <img src={image} className='transition-all' alt="" />
                 <div className="overlay opacity-0 transition-all absolute inset-0 flex items-center justify-center bg-black/60">

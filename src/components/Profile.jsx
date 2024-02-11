@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import profileBg from '../assets/profile-bg.png'
 import photo from '../assets/photo.png'
-import ProfileSocialMedia from './SocialMedia/ProfileSocialMedia'
+import SocialMedia from './SocialMedia/SocialMedia'
 import ProfilePhoto from './ProfilePhoto'
 
 export default function Profile() {
@@ -32,7 +32,7 @@ export default function Profile() {
                 <div>
                     <h1 className='text-2xl font-bold'>I’m Huseyn Ismayilov</h1>
                     <h3 className='text-gray-400 mb-3'>I’m a Front-End developer based in Azerbaijan, Baku</h3>
-                    <ProfileSocialMedia />
+                    <SocialMedia variant="variant2" />
                 </div>
 
             </div>

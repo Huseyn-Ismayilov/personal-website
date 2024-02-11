@@ -1,6 +1,6 @@
 import Block from "./Block";
 import BlockTitle from "./BlockTitle";
-import SocialMedia from "./SocialMedia/ProfileSocialMedia";
+import SocialMedia from "./SocialMedia/SocialMedia";
 
 export default function Follow() {
     return (
@@ -9,7 +9,7 @@ export default function Follow() {
                 fontSize="text-lg"
                 title="Follow my work on"
             />
-            <SocialMedia />
+            <SocialMedia variant="variant2"/>
         </Block>
     )
 }

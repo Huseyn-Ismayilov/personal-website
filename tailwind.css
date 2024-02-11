@@ -24,24 +24,24 @@
 .attbc0:last-child .line {
     display: none;
 }
-.porfolioCart:hover .overlay {
+.portfolioCart:hover .overlay {
   opacity: 1;
   
 }
-.porfolioCart .overlay {
+.portfolioCart .overlay {
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
     /* transition-delay: 100ms; */
 }
-.porfolioCart:hover img {
+.portfolioCart:hover img {
     transform: scale(1.07);
 }
 
-.porfolioCart .btn {
+.portfolioCart .btn {
     gap: 0px;
 }
-.porfolioCart .btn:hover {
+.portfolioCart .btn:hover {
     gap: 10px;
 
 }
@@ -57,15 +57,17 @@ button::placeholder {
     font-weight: 400;
 
 }
+/* .modal.active {
+    backdrop-filter: blur(5px);
+} */
 .modal_inner {
-    /* transform: translateY(0); */
-    animation: slide-up 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95) ease-out forwards;
+    animation: slide-up .15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 @keyframes slide-up {
     from {
-      transform: translateY(-10px);
+      transform: translateY(10px);
     }
   
     to {

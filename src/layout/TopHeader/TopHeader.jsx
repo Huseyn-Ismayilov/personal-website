@@ -1,4 +1,4 @@
-import SocialMedia from '../../components/SocialMedia/TopSocialMedia'
+import SocialMedia from '../../components/SocialMedia/SocialMedia'
 import TopEmail from '../../components/TopEmail'
 
 export default function topHeader() {
@@ -10,7 +10,7 @@ export default function topHeader() {
                         to="mailto:i.huseynn0@gmail.com"
                         text="i.huseynn0@gmail.com"
                     />
-                    <SocialMedia />
+                    <SocialMedia variant="variant1" />
                 </div>
             </div>
         </div>
