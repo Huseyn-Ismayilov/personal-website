@@ -1275,6 +1275,11 @@ body {
   .md\:p-7{
     padding: 1.75rem;
   }
+
+  .md\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px){
