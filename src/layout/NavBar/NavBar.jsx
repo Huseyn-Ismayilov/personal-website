@@ -31,6 +31,7 @@ export default function NavBar() {
                     <NavLink
                         key={index}
                         to={item.to}
+                        preventScrollReset={true}
                     >
                         {({ isActive }) => (
                             <div className={`text-[#0000004a] flex items-center justify-center w-11 h-11 rounded-lg border border-transparent ${isActive ? "bg-gray-100 border-gray-200 hover:border-gray-200" : ""}`}>

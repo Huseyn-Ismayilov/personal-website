@@ -93,8 +93,6 @@ export default function SocialMedia({ variant }) {
         icon: icons[index % icons.length] 
     }));
 
-    console.log(combinedList);
-
     return (
         <div className="inline-flex gap-2">
             {combinedList.map(({ link, icon }, index) => (

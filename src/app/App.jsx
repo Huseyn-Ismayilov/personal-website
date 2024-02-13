@@ -1,60 +1,33 @@
+import React from 'react';
 import {
-    BrowserRouter,
-    Route,
     Routes,
-    useLocation,
+    Route,
 } from "react-router-dom";
 
-// Layout
-import Root from '../layout/Layout.jsx'
-
 // Pages
-import Home from '../pages/Home'
-import About from '../pages/About'
-import Blogs from '../pages/Blogs'
+import Home from '../pages/Home';
+import About from '../pages/About';
 import Portfolio from '../pages/Porfolio'
+import ScrollToTop from '../utils/ScrollToTop'
 
-// const router = createBrowserRouter([
-//     {
-//         element: <Root />,
-//         children: [
-//             {
-//                 path: '/',
-//                 element: <Home />
-//             },
-//             {
-//                 path: '/About',
-//                 element: <About />
-//             },
-//             {
-//                 path: '/portfolio',
-//                 element: <Portfolio />
-//             },
-//             {
-//                 path: '/blogs',
-//                 element: <Blogs />
-//             },
-//         ]
-//     }
-// ]);
-
-
-
+// RootLayout
+import Root from '../layout/Layout';
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <>
+            <ScrollToTop />
             <Routes>
-                <Route path="/" element={<Root/>}>
-                    <Route path="/" element={<Home />} />
+                <Route
+                    path="/"
+                    element={<Root />}
+                >
+                    <Route index element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/blogs" element={<Blogs />} />
                 </Route>
-
             </Routes>
-        </BrowserRouter>
-        // <BrowserRouter router={router}></BrowserRouter>
+        </>
+
     )
 }
-

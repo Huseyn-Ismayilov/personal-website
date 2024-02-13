@@ -20,12 +20,12 @@ const Modal = () => {
     return (
         <div
             onClick={handleCloseModal}
-            className={`backdrop-blur-sm fixed inset-0 z-20 bg-black/40 flex items-center justify-center`}
+            className={`backdrop-blur-sm fixed inset-0 z-20 bg-black/40 flex items-center justify-center px-4`}
         >
-            <div className="modal_inner bg-white max-w-[474px] p-7 rounded-2xl w-full relative">
+            <div className="modal_inner bg-white max-w-[474px] md:p-7 p-4 rounded-2xl w-full relative">
                 <button
                     onClick={closeModal}
-                    className='absolute -right-14 -top-14'
+                    className='absolute md:-right-14 right-0 -top-14'
                 >
                     <svg width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.65002 2L40.9999 39.3499" stroke="white" strokeWidth="4" strokeLinecap="round" />
@@ -34,7 +34,7 @@ const Modal = () => {
                 </button>
                 <div className=''>
                     <h1 className='text-2xl font-semibold mb-4'>Let’s work together</h1>
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-wrap items-center gap-4">
                         <a href='' className="inline-flex items-center gap-2 hover:text-black">
                             <img src={MailIcon} className='w-5 shrink-0' alt="" />
                             <span className='font-semibold'>i.huseynn0@gmail.com</span>

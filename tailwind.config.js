@@ -23,10 +23,13 @@ module.exports = {
       }
     },
     container: {
+      padding: {
+        DEFAULT: '1rem',
+      },
       screens: {
         sm: '600px',
         md: '728px',
-        lg: '944px',
+        lg: '1024px',
         // xl: '1240px',
       },
     },

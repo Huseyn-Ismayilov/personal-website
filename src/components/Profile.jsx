@@ -6,7 +6,7 @@ import ProfilePhoto from './ProfilePhoto'
 
 export default function Profile() {
     return (
-        <div className="overflow-hidden md:rounded-xl shadow-md bg-white">
+        <div className="overflow-hidden md:rounded-xl shadow-md bg-white -mx-4 md:mx-0">
             <div className="flex relative">
                 <img
                     src={profileBg}

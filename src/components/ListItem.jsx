@@ -1,13 +1,13 @@
 export default function ListItem(props) {
     return (
         <div className="flex gap-4 relative attbc0">
-            <div className="w-10 h-10 shrink-0">
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
                 <img src={props.image} alt="" />
             </div>
             <div className="grow">
                 <div className="flex justify-between">
                     <h3 className="text-base font-bold whitespace-pre-wrap">{props.title}</h3>
-                    <span className="block text-gray-400 whitespace-nowrap mt-1">{props.date}</span>
+                    <span className="block text-xs text-gray-400 whitespace-nowrap mt-1">{props.date}</span>
                 </div>
                 <h5 className="text-sm text-gray-400 font-medium">{props.corporate}</h5>
 
